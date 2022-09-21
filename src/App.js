@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import './App.css';
 import Main from './components/Main';
 import HeadlineCards from './components/HeadlineCards';
+import Food from './components/Food';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Main />
       <HeadlineCards />
+      <Food />
     </div>
   );
 }
